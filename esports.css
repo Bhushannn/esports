@@ -155,3 +155,61 @@
     }
     
 }
+
+
+
+.con4{
+    display:flex;
+}
+
+.valo-content{
+    width:50%;
+    padding:3%;
+}
+
+.valo-heading{
+    font-size: 3.5vw;
+    padding:1.8%;
+}
+
+.valo-sub-content{
+    padding:2%;
+    font-size: 1.3vw;
+    line-height:150%;
+}
+
+.valo-photo{
+    width:50%;
+}
+
+.sub-valo-photo{
+    width:90%;
+    padding:5%;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .con4{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .valo-content{
+        width: 94%;
+    }
+
+    .valo-heading{
+        font-size: 9vw;
+    }
+
+    .valo-sub-content{
+        font-size: 3.5vw;
+    }
+
+    .valo-photo{
+        width:100%;
+    }
+
+
+}
